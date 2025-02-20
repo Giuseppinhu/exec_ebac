@@ -1,0 +1,47 @@
+@use '../variables';
+
+.info-card{
+    padding: 16px 24px;
+    background-color: variables.$grey;
+
+    display: flex;
+    justify-content: space-between;
+    
+    &__infos {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 18px;
+
+            color: variables.$black;
+
+            b {
+                display: block;
+                font-size: 18px;
+                color: variables.$black;
+            }
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        
+        &__infos {
+            display: block;
+
+            &__item  {
+                margin-bottom: 16px;
+            }
+        }
+        
+    }
+
+    @media (max-width: 1024px) {
+        
+        &__infos {
+            margin-right: 18px;
+        }
+        
+    }
+}
