@@ -6,14 +6,22 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giuseppinhu/exec_ebac.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Giuseppinhu/exec_ebac/issues"
+  },
+  "homepage": "https://github.com/Giuseppinhu/exec_ebac#readme",
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
     "parcel": "^2.8.0",
-    "sharp": "^0.31.2"
+    "sharp": "^0.31.3"
   }
 }
